@@ -22,14 +22,28 @@
 					</a>
 					<ul class="dropdown-menu" role="menu">
 		                <li class="dropdown-header">게시판 목록</li>
-		                <li><a href="/board1">게시판1</a></li>
-		                <li><a href="/board2">게시판2</a></li>
-   		                <li><a href="/board3">게시판3</a></li>
+		                <li><a href="/board1">공지사항</a></li>
+		                <li><a href="/board2">자유 게시판</a></li>
+   		                <li><a href="/board3">질문 게시판</a></li>
 		                <li class="divider"></li>
 		            </ul>
 				</li>
 				<li><a href="#">About</a></li>
+				<li><a href="https://github.com/dong336"><i class="fab fa-github"></i></a></li>
             </ul>
-        </div><!--/.nav-collapse -->
+				<form class="navbar-form navbar-right">
+					<!-- TODO : 반응형 설정 추가 -->
+					<div class="form-group">
+						<input type="text" placeholder="Email" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Password" class="form-control">
+					</div>
+					<button type="submit" class="btn btn-success signIn">
+						<a href="/login">Sign in</a>
+					</button>
+					<button type="submit" class="btn btn-success">Sign up</button>
+				</form> 
+        </div><!--/.nav-collapse -->      
     </div>
 </nav>

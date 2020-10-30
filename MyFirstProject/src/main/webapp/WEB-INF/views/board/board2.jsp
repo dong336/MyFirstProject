@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title>Board2</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
@@ -15,15 +14,24 @@
 
 	<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/imgs/favicon.ico">	
+
+	<title>자유 게시판</title>
 </head>
 <body>
 
 	<jsp:include page="../util/nav.jsp" flush="false"/>	
+	<jsp:include page="../util/leftBtnGroup.jsp" flush="false" />
 
-	<div class="contatiner">
+	<div class="container">
 		<div class="starter-template">
-			<h1>게시판2</h1>
+			<h1>자유 게시판</h1>
 		</div>
+		
+		<jsp:include page="../util/footer.jsp" flush="false"/>		
 	</div>
 	
 </body>

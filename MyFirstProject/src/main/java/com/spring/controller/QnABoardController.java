@@ -4,9 +4,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class BoardController2 {
-	@RequestMapping("/board2")
+public class QnABoardController {
+	@RequestMapping("/board3")
 	public String handler() {
-		return "board/board2";
+		return "board/board3";
 	}
 }
